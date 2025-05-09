@@ -3,6 +3,8 @@ body {
     background-color:  #419096;  
     margin: 0;
     padding: 20px;
+     display: flex;
+    flex-wrap: wrap;
 }
 header {
     background-color:  #419096;  
@@ -23,6 +25,8 @@ main {
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.2); 
     color:white
+     display: flex;
+    flex-wrap: wrap;
 }
 h2 {
     color: white;
@@ -44,6 +48,8 @@ footer {
     margin-bottom: 20px;
     border-radius: 20px;
     padding: 0.9rem;
+     display: flex;
+    flex-wrap: wrap;
 
 }
 
