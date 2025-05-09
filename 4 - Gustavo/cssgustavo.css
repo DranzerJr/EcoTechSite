@@ -24,7 +24,7 @@ main {
     padding: 30px;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.2); 
-    color:white
+    color:white;
      display: flex;
     flex-wrap: wrap;
 }
