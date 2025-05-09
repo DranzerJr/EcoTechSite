@@ -89,6 +89,40 @@ body {
 
   }
 
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  article {
+    padding-right: 0;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  .div1 {
+    font-size: medium;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav a {
+    margin: 5px 0;
+  }
+
+  .div1 {
+    font-size: small;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
   .botoes {
     position: fixed;
     top: 27%; /* Ajustar de acordo com o header*/
