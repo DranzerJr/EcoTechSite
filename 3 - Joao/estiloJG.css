@@ -61,9 +61,26 @@ header{
     margin-right: 25%;
     
     
+    
 
 
     
+}
+
+@media (max-width: 768px) {
+    .container, .content, header {
+        padding: 15px;
+    }
+
+    .container {
+        font-size: medium;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        font-size: small;
+    }
 }
 
 footer {
