@@ -56,6 +56,21 @@ header {
     flex-wrap: wrap;
 }
 
+@media (max-width: 600px) {
+    .container {
+        padding: 12px;
+    }
+
+    .container h2 {
+        font-size: 24px;
+        padding: 12px;
+    }
+
+    .container p {
+        font-size: 16px;
+    }
+}
+
 .botoes {
   position: fixed;
   top: 12%; 
