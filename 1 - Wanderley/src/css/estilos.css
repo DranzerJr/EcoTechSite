@@ -126,13 +126,7 @@ footer {
   }
 }
 
-@media (max-width: 480px) {
-  header {
-    font-size: 18px;
-    padding: 8px 15px;
-    text-align: center;
-    justify-content: center;
-  }
+
 
   main .principal .imagems {
     height: 180px;
