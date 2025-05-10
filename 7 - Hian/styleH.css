@@ -43,18 +43,36 @@ body {
     flex: 3;
     padding-right: 20px;
   }
+ aside {
+  color: white;  
+  flex: 1;
+  background-color: #3b505c;
+  padding: 15px;
+  width: 250px; /* ajustado de 15px para um valor mais útil */
+  min-width: 200px;
+  border: 1px solid #3b505c;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+
+@media (max-width: 768px) {
   aside {
-    
-    color: white;  
-    flex: 1;
-    background-color:  #3b505c;
-    height: 25%;
-    padding: 15px;
-    width: 15px;
-    border: 1px solid  #3b505c;
-    border-radius: 20px  #3b505c;
-    
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 15px;
   }
+}
+
+/* Responsivo para celulares */
+@media (max-width: 480px) {
+  aside {
+    font-size: 0.9rem;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+  }
+}
  footer {
   background-color: #3b505c;
   color: white;
