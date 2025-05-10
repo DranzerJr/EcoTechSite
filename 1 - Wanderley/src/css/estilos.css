@@ -100,52 +100,7 @@ footer {
   align-items: center;
 }
 
-@media (max-width: 768px) {
-  header {
-    font-size: 22px;
-    padding: 10px 20px;
-  }
 
-  main .principal .imagems {
-    height: 250px;
-    border-radius: 10px;
-  }
-
-  .conteudo .subtitulo {
-    font-size: 26px;
-  }
-
-  .conteudo {
-    font-size: 15px;
-    padding: 15px;
-  }
-
-  footer {
-    font-size: 16px;
-    padding: 15px;
-  }
-}
-
-
-
-  main .principal .imagems {
-    height: 180px;
-  }
-
-  .conteudo .subtitulo {
-    font-size: 22px;
-  }
-
-  .conteudo {
-    font-size: 14px;
-    line-height: 24px;
-  }
-
-  footer {
-    font-size: 14px;
-    padding: 10px;
-  }
-}
 
 .botoes {
   position: fixed;
@@ -271,21 +226,7 @@ body.dark-mode .botoes {
   right: 100px;
   z-index: 20;
 }
-@media (max-width: 768px) {
-  .colorblind-selector {
-    right: 40px;
-    top: 8px;
-  }
-}
 
-/* Ajuste para telas pequenas */
-@media (max-width: 480px) {
-  .colorblind-selector {
-    right: 15px;
-    top: 8px;
-    transform: scale(0.9); /* Opcional: reduz o tamanho se necessário */
-  }
-}
 
 #colorblind-mode {
   padding: 5px 10px;
