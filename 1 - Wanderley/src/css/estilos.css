@@ -277,6 +277,21 @@ body.dark-mode .botoes {
   right: 100px;
   z-index: 20;
 }
+@media (max-width: 768px) {
+  .colorblind-selector {
+    right: 40px;
+    top: 8px;
+  }
+}
+
+/* Ajuste para telas pequenas */
+@media (max-width: 480px) {
+  .colorblind-selector {
+    right: 15px;
+    top: 8px;
+    transform: scale(0.9); /* Opcional: reduz o tamanho se necessário */
+  }
+}
 
 #colorblind-mode {
   padding: 5px 10px;
