@@ -34,6 +34,25 @@ header {
   backdrop-filter: blur(4px);
 }
 
+/* Telas médias (tablets) */
+@media (max-width: 768px) {
+  header {
+    font-size: 22px;
+    padding: 12px 20px;
+  }
+}
+
+/* Telas pequenas (celulares) */
+@media (max-width: 480px) {
+  header {
+    font-size: 18px;
+    padding: 10px 15px;
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+}
+
 main {
   flex: 1;
   padding-top: 90px;
